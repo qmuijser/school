@@ -34,12 +34,12 @@ namespace backend_school_api.Context
 
         }
 
-        public DbSet<backend_school_api.Models.Product> Product { get; set; }
+        public DbSet<Product> Product { get; set; }
 
-        public DbSet<backend_school_api.Models.Order> Order { get; set; }
+        public DbSet<Order> Order { get; set; }
 
-        public DbSet<backend_school_api.Models.User> User { get; set; }
+        public DbSet<User> User { get; set; }
 
-        public DbSet<backend_school_api.Models.OrderLine> OrderLine { get; set; }
+        public DbSet<OrderLine> OrderLine { get; set; }
     }
 }
