@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OFL/v+YSQEgl5b7U74YuNnIlvB4XyXK7oIGJ8K9LJ2QwNAibw0bG5dDoBPB+vhmiqjuuIdcMf2236TqWIAFJsA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\quint\\Desktop\\school\\backend_school_api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\quint\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}
