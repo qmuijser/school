@@ -14,5 +14,6 @@ namespace backend_school_api.Models
         public string PostalCode { get; set; }
         public DateTime OrderDate { get; set; }
         public virtual List<OrderLine> OrderProducts { get; set; }
+
     }
 }

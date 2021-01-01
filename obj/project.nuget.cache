@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RehIIqbXv3P8ovnJzc9kHa/hSym961GSZ3sSLVa5BlFIJUKwlZi+r2ZXWxxNxZZ7sMQjEt9qSuBfgEEQBNGuAw==",
+  "dgSpecHash": "YTvHBjnT1wOzcspPDY3vlKVwXY+6OsWHSqk+nfRHXssBBYRLo/ITm9bTsJu3d3trjIFnGKtdsYTC+a2sMPtAZA==",
   "success": true,
   "projectFilePath": "C:\\Users\\quint\\Desktop\\school\\backend_school_api.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "C:\\Users\\quint\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.1\\microsoft.entityframeworkcore.abstractions.5.0.1.nupkg.sha512",
     "C:\\Users\\quint\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.1\\microsoft.entityframeworkcore.analyzers.5.0.1.nupkg.sha512",
     "C:\\Users\\quint\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.1\\microsoft.entityframeworkcore.design.5.0.1.nupkg.sha512",
+    "C:\\Users\\quint\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\5.0.1\\microsoft.entityframeworkcore.inmemory.5.0.1.nupkg.sha512",
     "C:\\Users\\quint\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.1\\microsoft.entityframeworkcore.relational.5.0.1.nupkg.sha512",
     "C:\\Users\\quint\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\5.0.1\\microsoft.entityframeworkcore.sqlite.5.0.1.nupkg.sha512",
     "C:\\Users\\quint\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\5.0.1\\microsoft.entityframeworkcore.sqlite.core.5.0.1.nupkg.sha512",
@@ -80,6 +81,7 @@
     "C:\\Users\\quint\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\quint\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\quint\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\quint\\.nuget\\packages\\sonaranalyzer.csharp\\8.16.0.25740\\sonaranalyzer.csharp.8.16.0.25740.nupkg.sha512",
     "C:\\Users\\quint\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.4\\sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\quint\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
     "C:\\Users\\quint\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",

@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backend_school_api", "backend_school_api.csproj", "{CCB0B2EA-277D-4810-979D-CB839B5F2B23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "backend_school_api", "backend_school_api.csproj", "{CCB0B2EA-277D-4810-979D-CB839B5F2B23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "backend_school_api_tests", "..\backend_school_api_tests\backend_school_api_tests.csproj", "{F48126B1-5CEB-476C-8A7A-DD0E41F2F489}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CCB0B2EA-277D-4810-979D-CB839B5F2B23} = {CCB0B2EA-277D-4810-979D-CB839B5F2B23}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{CCB0B2EA-277D-4810-979D-CB839B5F2B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCB0B2EA-277D-4810-979D-CB839B5F2B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCB0B2EA-277D-4810-979D-CB839B5F2B23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F48126B1-5CEB-476C-8A7A-DD0E41F2F489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F48126B1-5CEB-476C-8A7A-DD0E41F2F489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F48126B1-5CEB-476C-8A7A-DD0E41F2F489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F48126B1-5CEB-476C-8A7A-DD0E41F2F489}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

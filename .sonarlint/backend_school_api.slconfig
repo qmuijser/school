@@ -1,0 +1,12 @@
+{
+  "ServerUri": "http://localhost:9000/",
+  "Organization": null,
+  "ProjectKey": "backend_school_api",
+  "ProjectName": "backend_school_api",
+  "Profiles": {
+    "CSharp": {
+      "ProfileKey": "AXa2UUEnBHuMcFlUWNGM",
+      "ProfileTimestamp": "2020-12-31T01:02:27Z"
+    }
+  }
+}
