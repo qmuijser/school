@@ -58,7 +58,7 @@ namespace UnitTestsApi
         }
 
         [Test]
-        public async Task CreateProductTest()
+        public async Task GetProductWithId1()
         {
             string expectedName = "Sample1";
             var controller = new ProductsController(_dbContext);
@@ -68,5 +68,165 @@ namespace UnitTestsApi
 
             Assert.AreEqual(expectedName, resultProduct.Name);
         }
+
+        [Test]
+        public async Task GetOrderWithId1()
+        {
+            int expected = 1;
+            var controller = new OrdersController(_dbContext);
+            var result = await controller.GetOrder(1);
+
+            Order resultOrder = result.Value;
+
+            Assert.AreEqual(expected, resultOrder.OrderId);
+        }
+
+        [Test]
+        public async Task GetUserWithId1()
+        {
+            string expectedName = "Sample1";
+            var controller = new ProductsController(_dbContext);
+            var result = await controller.GetProduct(1);
+
+            Product resultProduct = result.Value;
+
+            Assert.AreEqual(expectedName, resultProduct.Name);
+        }
+
+
+        [Test]
+        public async Task GetAllProducts()
+        {
+            string expectedName = "Sample1";
+            var controller = new ProductsController(_dbContext);
+            var result = await controller.GetProduct(1);
+
+            Product resultProduct = result.Value;
+
+            Assert.AreEqual(expectedName, resultProduct.Name);
+        }
+
+        [Test]
+        public async Task GetAllUsers()
+        {
+            string expectedName = "Sample1";
+            var controller = new ProductsController(_dbContext);
+            var result = await controller.GetProduct(1);
+
+            Product resultProduct = result.Value;
+
+            Assert.AreEqual(expectedName, resultProduct.Name);
+        }
+
+        [Test]
+        public async Task GetAllOrders()
+        {
+            string expectedName = "Sample1";
+            var controller = new ProductsController(_dbContext);
+            var result = await controller.GetProduct(1);
+
+            Product resultProduct = result.Value;
+
+            Assert.AreEqual(expectedName, resultProduct.Name);
+        }
+
+        [Test]
+        public async Task CreateProduct()
+        {
+            Product product = new Product();
+            product.Description = "desc";
+            product.Name = "name";
+            product.Price = 1;
+            product.ProductId = 100;
+
+
+            var controller = new ProductsController(_dbContext);
+            controller.PutProduct(100, product);
+
+            var result = await controller.GetProduct(100);
+
+            Product resultProduct = result.Value;
+
+            Assert.AreEqual(resultProduct.Description, product.Description);
+        }
+
+        [Test]
+        public async Task CreateOrder()
+        {
+            Product product = new Product();
+            product.Description = "desc";
+            product.Name = "name";
+            product.Price = 1;
+            product.ProductId = 100;
+
+
+            var controller = new ProductsController(_dbContext);
+            controller.PutProduct(100, product);
+
+            var result = await controller.GetProduct(100);
+
+            Product resultProduct = result.Value;
+
+            Assert.AreEqual(resultProduct.Description, product.Description);
+        }
+
+
+        [Test]
+        public async Task CreateUser()
+        {
+            Product product = new Product();
+            product.Description = "desc";
+            product.Name = "name";
+            product.Price = 1;
+            product.ProductId = 100;
+
+
+            var controller = new ProductsController(_dbContext);
+            controller.PutProduct(100, product);
+
+            var result = await controller.GetProduct(100);
+
+            Product resultProduct = result.Value;
+
+            Assert.AreEqual(resultProduct.Description, product.Description);
+        }
+
+        //[Test]
+        //public async Task CetProductWithId1()
+        //{
+        //    string expectedName = "Sample1";
+        //    var controller = new ProductsController(_dbContext);
+        //    var result = await controller.GetProduct(1);
+
+        //    Product resultProduct = result.Value;
+
+        //    Assert.AreEqual(expectedName, resultProduct.Name);
+        //}
+
+        //[Test]
+        //public async Task CetProductWithId1()
+        //{
+        //    string expectedName = "Sample1";
+        //    var controller = new ProductsController(_dbContext);
+        //    var result = await controller.GetProduct(1);
+
+        //    Product resultProduct = result.Value;
+
+        //    Assert.AreEqual(expectedName, resultProduct.Name);
+        //}
+
+        //[Test]
+        //public async Task CetProductWithId1()
+        //{
+        //    string expectedName = "Sample1";
+        //    var controller = new ProductsController(_dbContext);
+        //    var result = await controller.GetProduct(1);
+
+        //    Product resultProduct = result.Value;
+
+        //    Assert.AreEqual(expectedName, resultProduct.Name);
+        //}
+
+
     }
 }

@@ -6113,11 +6113,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\quint\\Desktop\\project\\school\\api\\api.csproj",
+      "projectUniqueName": "C:\\Users\\quint\\Desktop\\Bestanden project quinten\\git repos\\project\\school\\api\\api.csproj",
       "projectName": "api",
-      "projectPath": "C:\\Users\\quint\\Desktop\\project\\school\\api\\api.csproj",
+      "projectPath": "C:\\Users\\quint\\Desktop\\Bestanden project quinten\\git repos\\project\\school\\api\\api.csproj",
       "packagesPath": "C:\\Users\\quint\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\quint\\Desktop\\project\\school\\api\\obj\\",
+      "outputPath": "C:\\Users\\quint\\Desktop\\Bestanden project quinten\\git repos\\project\\school\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\quint\\AppData\\Roaming\\NuGet\\NuGet.Config",
