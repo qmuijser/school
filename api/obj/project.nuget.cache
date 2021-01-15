@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TKqsz74IQM9zSx7zG2t5BL45jhHnb5xEWYFjF1+fSSdp46l9JGKoMu2wzY8wsPc84F0TMvw6K6Hzt/nuHyI24w==",
+  "dgSpecHash": "XHv22yydCLgp9NNlMECJ6/x2pAZxSsXC9I25wOsQANTjCM5m9wTXHPglDYjNkiyTbNc+3i5OHxj2opn2WCRCRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\quint\\Desktop\\school\\webshopApi\\api\\api.csproj",
+  "projectFilePath": "C:\\Users\\quint\\Desktop\\project\\school\\api\\api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\quint\\.nuget\\packages\\bcrypt.net-core\\1.6.0\\bcrypt.net-core.1.6.0.nupkg.sha512",
     "C:\\Users\\quint\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eXFmsoHzezicKfEXOVMIidDWMvqT6pqfYoJ138+PRulRC//kdaU+hYzcv7SJwP8OlLIN/k9NMR7hioPG21bWYg==",
+  "dgSpecHash": "JyA7MnIqSVOEkzdv3TmYU2021k4UCRtertQd4G4zPjiGeiCosVun4bsMuT/dCNtx6Cg30y6sNlzxkG28zYNGDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\quint\\Desktop\\school\\webshopApi\\UnitTestsApi\\UnitTestsApi.csproj",
+  "projectFilePath": "C:\\Users\\quint\\Desktop\\project\\school\\UnitTestsApi\\UnitTestsApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\quint\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\quint\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
@@ -115,8 +115,6 @@
     "C:\\Users\\quint\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\quint\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\quint\\.nuget\\packages\\system.text.encoding.extensions\\4.3.0\\system.text.encoding.extensions.4.3.0.nupkg.sha512",
-    "C:\\Users\\quint\\.nuget\\packages\\system.text.encodings.web\\5.0.0\\system.text.encodings.web.5.0.0.nupkg.sha512",
-    "C:\\Users\\quint\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512",
     "C:\\Users\\quint\\.nuget\\packages\\system.text.regularexpressions\\4.3.0\\system.text.regularexpressions.4.3.0.nupkg.sha512",
     "C:\\Users\\quint\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\quint\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",

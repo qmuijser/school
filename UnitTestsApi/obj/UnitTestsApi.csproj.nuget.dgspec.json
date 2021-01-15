@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\quint\\Desktop\\school\\webshopApi\\UnitTestsApi\\UnitTestsApi.csproj": {}
+    "C:\\Users\\quint\\Desktop\\project\\school\\UnitTestsApi\\UnitTestsApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\quint\\Desktop\\school\\webshopApi\\UnitTestsApi\\UnitTestsApi.csproj": {
+    "C:\\Users\\quint\\Desktop\\project\\school\\UnitTestsApi\\UnitTestsApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\quint\\Desktop\\school\\webshopApi\\UnitTestsApi\\UnitTestsApi.csproj",
+        "projectUniqueName": "C:\\Users\\quint\\Desktop\\project\\school\\UnitTestsApi\\UnitTestsApi.csproj",
         "projectName": "UnitTestsApi",
-        "projectPath": "C:\\Users\\quint\\Desktop\\school\\webshopApi\\UnitTestsApi\\UnitTestsApi.csproj",
+        "projectPath": "C:\\Users\\quint\\Desktop\\project\\school\\UnitTestsApi\\UnitTestsApi.csproj",
         "packagesPath": "C:\\Users\\quint\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\quint\\Desktop\\school\\webshopApi\\UnitTestsApi\\obj\\",
+        "outputPath": "C:\\Users\\quint\\Desktop\\project\\school\\UnitTestsApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\quint\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
