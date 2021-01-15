@@ -49,4 +49,5 @@ jobs:
         shell: pwsh
         run: |
           dotnet-sonarscanner begin /k:"qmuijser_school" /o:"qmuijser" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
+          msbuild
           dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
