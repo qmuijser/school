@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\quint\\Desktop\\school\\backend_school_api.csproj": {}
+    "C:\\Users\\quint\\Desktop\\cshap\\api\\school\\backend_school_api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\quint\\Desktop\\school\\backend_school_api.csproj": {
+    "C:\\Users\\quint\\Desktop\\cshap\\api\\school\\backend_school_api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\quint\\Desktop\\school\\backend_school_api.csproj",
+        "projectUniqueName": "C:\\Users\\quint\\Desktop\\cshap\\api\\school\\backend_school_api.csproj",
         "projectName": "backend_school_api",
-        "projectPath": "C:\\Users\\quint\\Desktop\\school\\backend_school_api.csproj",
+        "projectPath": "C:\\Users\\quint\\Desktop\\cshap\\api\\school\\backend_school_api.csproj",
         "packagesPath": "C:\\Users\\quint\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\quint\\Desktop\\school\\obj\\",
+        "outputPath": "C:\\Users\\quint\\Desktop\\cshap\\api\\school\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\quint\\AppData\\Roaming\\NuGet\\NuGet.Config",
