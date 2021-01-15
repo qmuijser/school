@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "RehIIqbXv3P8ovnJzc9kHa/hSym961GSZ3sSLVa5BlFIJUKwlZi+r2ZXWxxNxZZ7sMQjEt9qSuBfgEEQBNGuAw==",
+  "dgSpecHash": "TilMOS2pziTuxAAEtFPNoFE+OfNtfsEImX8RImi62BnUCknoRYhiYbQm/Lz7j6KIuqMUpreolrBKFXN3hZh9TQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\quint\\Desktop\\school\\backend_school_api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\quint\\.nuget\\packages\\bcrypt.net-core\\1.6.0\\bcrypt.net-core.1.6.0.nupkg.sha512",
     "C:\\Users\\quint\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\quint\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.0\\microsoft.aspnetcore.authentication.jwtbearer.3.1.0.nupkg.sha512",
     "C:\\Users\\quint\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\quint\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\quint\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
