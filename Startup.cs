@@ -30,6 +30,16 @@ namespace backend_school_api
             string mySqlConnectionStr = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContextPool<DatabaseContext>(options => options.UseMySql(mySqlConnectionStr, ServerVersion.AutoDetect(mySqlConnectionStr)));
 
+            services.AddCors(options =>
+            {
+                options.AddPolicy(
+                  "CorsPolicy",
+                  builder => builder
+                  .AllowAnyMethod()
+                  .AllowAnyOrigin()
+                  .AllowAnyHeader());
+            });
+
             services.AddControllers();
         }
 
@@ -46,6 +56,8 @@ namespace backend_school_api
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseCors("CorsPolicy");
 
             app.UseEndpoints(endpoints =>
             {
