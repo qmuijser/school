@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using backend_school_api.Context;
 using backend_school_api.Models;
+using backend_school_api.Auth;
+using Microsoft.AspNetCore.Authorization;
 
 namespace backend_school_api.Controllers
 {
@@ -15,10 +17,17 @@ namespace backend_school_api.Controllers
     public class UsersController : ControllerBase
     {
         private readonly DatabaseContext _context;
+        private PasswordManager passwordManager;
+        private AuthenticationHandler authenticationHandler;
+        private JWTHandler jwtHandler;
+
 
         public UsersController(DatabaseContext context)
         {
             _context = context;
+            passwordManager = new PasswordManager();
+            jwtHandler = new JWTHandler();
+            authenticationHandler = new AuthenticationHandler(passwordManager,_context,jwtHandler);
         }
 
         // GET: api/Users
@@ -80,11 +89,56 @@ namespace backend_school_api.Controllers
         [HttpPost]
         public async Task<ActionResult<User>> PostUser(User user)
         {
+            //Hash password
+            user.Password = passwordManager.HashPassword(user.Password);
             _context.User.Add(user);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetUser", new { id = user.UserId }, user);
         }
+
+        [HttpPost]
+        [Route("login"), ActionName("login")]
+        public async Task<IActionResult> Login([FromBody] UserLogin login)
+        {
+            try
+            {
+                return Ok(new { Token = authenticationHandler.LoginUser(login) });
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                return Unauthorized();
+            }
+        }
+
+        [AllowAnonymous]
+        [HttpPost]
+        [Route("register"), ActionName("createAccount")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public IActionResult CreateAccount([FromBody] UserCreate userCreate)
+        {
+            try
+            {
+                if (userCreate == null)
+                {
+                    return BadRequest("Empty body");
+                }
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest("Request doesn't pass validation");
+                }
+                User createdUser = authenticationHandler.CreateUser(userCreate);
+                return CreatedAtAction("createAccount", new { id = createdUser.UserId }, createdUser);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                return StatusCode(500, "Internal server error");
+            }
+        }
+
 
         // DELETE: api/Users/5
         [HttpDelete("{id}")]

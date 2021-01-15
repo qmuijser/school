@@ -178,4 +178,5 @@ C:\Users\quint\Desktop\school\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Mi
 C:\Users\quint\Desktop\school\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\quint\Desktop\school\bin\Debug\netcoreapp3.1\runtimes\linux-mips64\native\libe_sqlite3.so
 C:\Users\quint\Desktop\school\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\quint\Desktop\school\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\quint\Desktop\school\bin\Debug\netcoreapp3.1\BCrypt.Net-Core.dll
+C:\Users\quint\Desktop\school\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
