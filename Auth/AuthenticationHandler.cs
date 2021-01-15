@@ -36,7 +36,7 @@ namespace backend_school_api.Auth
         {
             string hashedPassword = manager.HashPassword(create.Password);
 
-            context.User.Add(new User { Username = create.Username, Password = create.Password, Email = create.Email, Phone = create.Phone, Role =  });
+            context.User.Add(new User { Username = create.Username, Password = create.Password, Email = create.Email, Phone = create.Phone, Role =  create.Role});
 
             //User createdUser = _employeeRepository.Create(new EmployeeCreateDTO(createDTO.Name,
             //    hashedPassword, createDTO.Email, createDTO.Admin));
