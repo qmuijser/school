@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XHv22yydCLgp9NNlMECJ6/x2pAZxSsXC9I25wOsQANTjCM5m9wTXHPglDYjNkiyTbNc+3i5OHxj2opn2WCRCRg==",
+  "dgSpecHash": "M3BJDF7z0XTPHJsihxjQlwcPLUZ0MoS7L+YY1yhmyfgQykIj7XscFnipH773FVA60k0PiLfiERReCqWHK9M9Gw==",
   "success": true,
   "projectFilePath": "C:\\Users\\quint\\Desktop\\project\\school\\api\\api.csproj",
   "expectedPackageFiles": [
@@ -48,6 +48,7 @@
     "C:\\Users\\quint\\.nuget\\packages\\mysqlconnector\\1.1.0\\mysqlconnector.1.1.0.nupkg.sha512",
     "C:\\Users\\quint\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\5.0.0-alpha.2\\pomelo.entityframeworkcore.mysql.5.0.0-alpha.2.nupkg.sha512",
     "C:\\Users\\quint\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
+    "C:\\Users\\quint\\.nuget\\packages\\sonaranalyzer.csharp\\8.16.0.25740\\sonaranalyzer.csharp.8.16.0.25740.nupkg.sha512",
     "C:\\Users\\quint\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.4\\sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\quint\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
     "C:\\Users\\quint\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",

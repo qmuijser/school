@@ -586,6 +586,9 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "SonarAnalyzer.CSharp/8.16.0.25740": {
+        "type": "package"
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.0.4": {
         "type": "package",
         "dependencies": {
@@ -2713,6 +2716,26 @@
         "lib/netstandard1.0/_._",
         "runtime.native.system.4.3.0.nupkg.sha512",
         "runtime.native.system.nuspec"
+      ]
+    },
+    "SonarAnalyzer.CSharp/8.16.0.25740": {
+      "sha512": "10HXmkEcsvogA4ZAjOOEnqXnQz32PvFIxl6Ld6yRm7rViX71eydBG5nmgCfVTyDDAXKjMET9CjacX85kz8VRFw==",
+      "type": "package",
+      "path": "sonaranalyzer.csharp/8.16.0.25740",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "analyzers/Google.Protobuf.dll",
+        "analyzers/SonarAnalyzer.CFG.dll",
+        "analyzers/SonarAnalyzer.CSharp.dll",
+        "analyzers/SonarAnalyzer.dll",
+        "images/sonarsource_64.png",
+        "sonaranalyzer.csharp.8.16.0.25740.nupkg.sha512",
+        "sonaranalyzer.csharp.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
       ]
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.0.4": {
@@ -6104,6 +6127,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.2",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9",
       "Pomelo.EntityFrameworkCore.MySql >= 5.0.0-alpha.2",
+      "SonarAnalyzer.CSharp >= 8.16.0.25740",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -6189,6 +6213,12 @@
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",
             "version": "[5.0.0-alpha.2, )"
+          },
+          "SonarAnalyzer.CSharp": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[8.16.0.25740, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
